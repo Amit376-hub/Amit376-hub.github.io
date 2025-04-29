@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    color:white;
+    text-decoration: none;
+}
+.navbar{
+    position:relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    color:black;
+}
+.logo img{
+    margin-right: 30px;
+    position: relative;
+    right: 40px;
+}
+.headings{
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 10px;
+    padding: 30px;
+}
+.heading1{
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+}
+.heading2{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn button{
+    display: inline-block;
+    background: linear-gradient(270deg, #00dbde, #fc00ff);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.featured-projects {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.featured-projects h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.project-card {
+    width: 240px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-card p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.projects-box {
+    background-color: #ffe6f0;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 20px;
+    max-width: 1200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
