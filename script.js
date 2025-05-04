@@ -84,3 +84,4 @@ document.getElementById("contact").addEventListener("click", () => {
   contentBox.style.display = "block";
   contentBox.scrollIntoView({ behavior: "smooth" });
 });
+
